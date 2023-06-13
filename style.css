@@ -1,0 +1,95 @@
+/* Estilo CSS */
+
+body{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 0%;
+    padding: 0px;
+    background-color: rgb(24, 158, 64);
+}
+h1{
+    margin-top: 10px;
+    color: rgb(42, 50, 167);
+    text-align: center;
+}
+header{
+    background-color: black;
+    color: darksalmon;
+    padding: 10px;
+    text-align: center;
+    
+}
+nav{
+    background-color: dimgrey;
+    color: beige;
+    height: 60px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 16px;
+    margin-top: 2%;
+}
+nav ul{
+    list-style: none;
+    margin: 0%;
+    padding: auto;
+    display: flex;
+}
+nav a{
+    color: darkkhaki;
+    text-decoration: none;
+    padding: 6px 16px;
+    display: block;
+    text-align: center;
+}
+h2 {margin-top: 10px;
+    color: rgb(42, 50, 167);
+    text-align: center;
+}
+#content{
+    padding: 20px;
+}
+
+.movies-container{
+    display: flex;
+    flex-wrap: wrap;
+}
+.movie{
+    flex-basis: 50%;
+    margin: 10px;
+}
+
+/* ------------ */
+/* Form */
+
+header{
+    margin-left: 15%;
+}
+h2{
+    font-size: 18px;
+}
+form{
+    max-width: 400px;
+    margin: 0 auto; 
+}
+label{
+    display: block;
+    margin-bottom: 10px;
+}
+
+input{
+    width: 100%;
+    padding: 10px;
+    border-radius: 4px;
+}
+button{
+    display: block;
+    background-color:goldenrod;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 4px;
+    transition: background-color 0,3ms;
+    cursor: pointer;
+}
+
+button:hover;
